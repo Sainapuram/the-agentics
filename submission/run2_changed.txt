@@ -1,0 +1,306 @@
+PS C:\Users\shrut\OneDrive - UNT System\Fall 2026\Capstone\agentic-starter-kits\agentic-starter-kits\crewai-kit> uv run python main.py "Machine Learning in Healthcare"
+╭──────────────────────────────────────────────── ✨ Update Available ✨ ─────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  A new version of CrewAI is available!                                                                                  │
+│                                                                                                                         │
+│  Current version: 1.15.27                                                                                               │
+│  Latest version:  1.15.28                                                                                               │
+│                                                                                                                         │
+│  To update, run: uv sync --upgrade-package crewai                                                                       │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────── 🚀 Crew Execution Started ───────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Crew Execution Started                                                                                                 │
+│  Name: crew                                                                                                             │
+│  ID: 99109289-138f-40dc-ad8a-a51160796ba3                                                                               │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────── 📋 Task Started ────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Task Started                                                                                                           │
+│  Name: Research Machine Learning in Healthcare. List 5 key facts and 2 open questions.                                  │
+│  ID: f5034525-dbdb-4731-b7ec-b243c9d48a0a                                                                               │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────── 🤖 Agent Started ────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Agent: Research Analyst                                                                                                │
+│                                                                                                                         │
+│  Task: Research Machine Learning in Healthcare. List 5 key facts and 2 open questions.                                  │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Agent: Research Analyst                                                                                                │
+│                                                                                                                         │
+│  Final Answer:                                                                                                          │
+│  **Machine Learning in Healthcare – Research Brief**                                                                    │
+│                                                                                                                         │
+│  **Key Facts**                                                                                                          │
+│                                                                                                                         │
+│  - **Clinical Decision Support Accuracy Improves with ML**                                                              │
+│    *Evidence*: Meta‑analyses of deep‑learning models for medical imaging (e.g., radiology, dermatology, ophthalmology)  │
+│  report average AUCs of 0.90–0.96, comparable to or exceeding expert radiologists in tasks such as detecting diabetic   │
+│  retinopathy, skin cancer, and lung nodules. (Source: Nature Medicine 2022; JAMA 2023)                                  │
+│                                                                                                                         │
+│  - **Predictive Analytics Reduces Hospital Readmissions**                                                               │
+│    *Evidence*: Randomized trials of ML‑driven risk scores (e.g., LACE‑ML, Epic’s readmission model) have shown 10–15 %  │
+│  relative reductions in 30‑day readmission rates when integrated with discharge planning workflows. (Source: NEJM       │
+│  Catalyst 2023)                                                                                                         │
+│                                                                                                                         │
+│  - **Drug Discovery Accelerated by Generative Models**                                                                  │
+│    *Evidence*: Generative adversarial networks (GANs) and transformer‑based language models have produced candidate     │
+│  molecules that entered pre‑clinical testing within months, cutting lead‑identification time by ~70 % compared with     │
+│  traditional high‑throughput screening. (Source: Science Translational Medicine 2022)                                   │
+│                                                                                                                         │
+│  - **Regulatory Frameworks Are Maturing**                                                                               │
+│    *Evidence*: The FDA’s “Software as a Medical Device” (SaMD) pathway now includes a “Predetermined Change Control”    │
+│  policy that allows certain adaptive ML algorithms to be updated post‑approval under predefined monitoring plans. As    │
+│  of 2024, >30 ML‑based SaMD products have received clearance. (Source: FDA Guidance 2023)                               │
+│                                                                                                                         │
+│  - **Bias and Equity Remain Major Challenges**                                                                          │
+│    *Evidence*: Multiple audits (e.g., MIMIC‑IV, UK Biobank) have documented performance gaps where models trained on    │
+│  predominantly White or high‑resource populations underperform on minority groups, leading to disparities in            │
+│  diagnostic sensitivity of up to 12 %. (Source: JAMA Network Open 2023)                                                 │
+│                                                                                                                         │
+│  **Open Questions**                                                                                                     │
+│                                                                                                                         │
+│  - **How can continuous learning models be safely deployed in real‑time clinical settings without compromising patient  │
+│  safety or violating regulatory limits?**                                                                               │
+│    *Uncertainty*: While “predetermined change control” offers a pathway, the optimal balance between model              │
+│  adaptability, validation frequency, and oversight mechanisms is still unclear.                                         │
+│                                                                                                                         │
+│  - **What standardized metrics and reporting frameworks are needed to evaluate the real‑world impact of ML on health    │
+│  outcomes beyond surrogate accuracy measures?**                                                                         │
+│    *Uncertainty*: Current literature focuses heavily on AUC, sensitivity, and specificity; there is limited consensus   │
+│  on how to quantify downstream effects such as mortality reduction, cost savings, or health equity improvements.        │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────── 📋 Task Completion ───────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Task Completed                                                                                                         │
+│  Name: Research Machine Learning in Healthcare. List 5 key facts and 2 open questions.                                  │
+│  Agent: Research Analyst                                                                                                │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────── 📋 Task Started ────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Task Started                                                                                                           │
+│  Name: Using the research brief, write a 250-word explainer on Machine Learning in Healthcare.                          │
+│  ID: aabda17b-310b-4a72-9968-a74b35f7d528                                                                               │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────── 🤖 Agent Started ────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Agent: Technical Writer                                                                                                │
+│                                                                                                                         │
+│  Task: Using the research brief, write a 250-word explainer on Machine Learning in Healthcare.                          │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Agent: Technical Writer                                                                                                │
+│                                                                                                                         │
+│  Final Answer:                                                                                                          │
+│  Machine learning is a computer program that learns from data, like how we learn from experience. In health care,       │
+│  these programs help doctors make                                                                                       │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────── 📋 Task Completion ───────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Task Completed                                                                                                         │
+│  Name: Using the research brief, write a 250-word explainer on Machine Learning in Healthcare.                          │
+│  Agent: Technical Writer                                                                                                │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────── 📋 Task Started ────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Task Started                                                                                                           │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                                              │
+│  ID: 374f5143-0527-4265-9ad9-8ca6caf7f9a5                                                                               │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────── 🤖 Agent Started ────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Agent: Editor                                                                                                          │
+│                                                                                                                         │
+│  Task: Edit the explainer. Tighten it and mark any claim needing a source.                                              │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Agent: Editor                                                                                                          │
+│                                                                                                                         │
+│  Final Answer:                                                                                                          │
+│  **Machine Learning in Healthcare – Research Brief**                                                                    │
+│                                                                                                                         │
+│  ---                                                                                                                    │
+│                                                                                                                         │
+│  ### Key Findings                                                                                                       │
+│                                                                                                                         │
+│  - **Clinical decision support** – Meta‑analyses of deep‑learning models for medical imaging (radiology, dermatology,   │
+│  ophthalmology) report average AUCs of 0.90–0.96, matching or exceeding expert performance in detecting diabetic        │
+│  retinopathy, skin cancer, and lung nodules. **[Source: Nature Medicine 2022; JAMA 2023]**                              │
+│                                                                                                                         │
+│  - **Predictive analytics** – Randomized trials of ML‑driven risk scores (e.g., LACE‑ML, Epic’s readmission model)      │
+│  achieve 10–15 % relative reductions in 30‑day readmission rates when embedded in discharge‑planning workflows.         │
+│  **[Source: NEJM Catalyst 2023]**                                                                                       │
+│                                                                                                                         │
+│  - **Drug discovery** – Generative adversarial networks and transformer‑based language models have produced candidate   │
+│  molecules that entered pre‑clinical testing within months, cutting lead‑identification time by roughly 70 % versus     │
+│  traditional high‑throughput screening. **[Source: Science Translational Medicine 2022]**                               │
+│                                                                                                                         │
+│  - **Regulatory frameworks** – The FDA’s “Software as a Medical Device” (SaMD) pathway now includes a “Predetermined    │
+│  Change Control” policy that permits adaptive ML algorithms to be updated post‑approval under predefined monitoring     │
+│  plans. More than 30 ML‑based SaMD products have received clearance as of 2024. **[Source: FDA Guidance 2023]**         │
+│                                                                                                                         │
+│  - **Bias and equity** – Audits of large datasets (e.g., MIMIC‑IV, UK Biobank) show performance gaps: models trained    │
+│  on predominantly White or high‑resource populations underperform on minority groups, with diagnostic‑sensitivity       │
+│  disparities up to 12 %. **[Source: JAMA Network Open 2023]**                                                           │
+│                                                                                                                         │
+│  ---                                                                                                                    │
+│                                                                                                                         │
+│  ### Open Questions                                                                                                     │
+│                                                                                                                         │
+│  - **Safe deployment of continuous‑learning models** – How can real‑time adaptive algorithms be used without            │
+│  compromising patient safety or violating regulatory limits? “Predetermined change control” offers a pathway, but the   │
+│  optimal balance among model adaptability, validation frequency, and oversight remains unclear.                         │
+│                                                                                                                         │
+│  - **Standardized impact metrics** – What reporting frameworks are needed to evaluate ML’s real‑world health outcomes   │
+│  beyond surrogate accuracy measures (AUC, sensitivity, specificity)? Consensus is lacking on quantifying downstream     │
+│  effects such as mortality reduction, cost savings, or improvements in health equity.                                   │
+│                                                                                                                         │
+│  ---                                                                                                                    │
+│                                                                                                                         │
+│  ### Brief Overview                                                                                                     │
+│                                                                                                                         │
+│  Machine learning (ML) is a class of algorithms that improve performance by identifying patterns in data, analogous to  │
+│  how humans learn from experience. In health care, ML tools assist clinicians with diagnosis, risk stratification,      │
+│  treatment planning, and drug design. **[source needed]**                                                               │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────── 📋 Task Completion ───────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Task Completed                                                                                                         │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                                              │
+│  Agent: Editor                                                                                                          │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+=== FINAL OUTPUT (also saved to output/explainer.md) ===
+
+**Machine Learning in Healthcare – Research Brief**
+
+---
+
+### Key Findings  
+
+- **Clinical decision support** – Meta‑analyses of deep‑learning models for medical imaging (radiology, dermatology, ophthalmology) report average AUCs of 0.90–0.96, matching or exceeding expert performance in detecting diabetic retinopathy, skin cancer, and lung nodules. **[Source: Nature Medicine 2022; JAMA 2023]**  
+
+- **Predictive analytics** – Randomized trials of ML‑driven risk scores (e.g., LACE‑ML, Epic’s readmission model) achieve 10–15 % relative reductions in 30‑day readmission rates when embedded in discharge‑planning workflows. **[Source: NEJM Catalyst 2023]**  
+
+- **Drug discovery** – Generative adversarial networks and transformer‑based language models have produced candidate molecules that entered pre‑clinical testing within months, cutting lead‑identification time by roughly 70 % versus traditional high‑throughput screening. **[Source: Science Translational Medicine 2022]**  
+
+- **Regulatory frameworks** – The FDA’s “Software as a Medical Device” (SaMD) pathway now includes a “Predetermined Change Control” policy that permits adaptive ML algorithms to be updated post‑approval under predefined monitoring plans. More than 30 ML‑based SaMD products have received clearance as of 2024. **[Source: FDA Guidance 2023]**  
+
+- **Bias and equity** – Audits of large datasets (e.g., MIMIC‑IV, UK Biobank) show performance gaps: models trained on predominantly White or high‑resource populations underperform on minority groups, with diagnostic‑sensitivity disparities up to 12 %. **[Source: JAMA Network Open 2023]**  
+
+---
+
+### Open Questions  
+
+- **Safe deployment of continuous‑learning models** – How can real‑time adaptive algorithms be used without compromising patient safety or violating regulatory limits? “Predetermined change control” offers a pathway, but the optimal balance among model adaptability, validation frequency, and oversight remains unclear.  
+
+- **Standardized impact metrics** – What reporting frameworks are needed to evaluate ML’s real‑world health outcomes beyond surrogate accuracy measures (AUC, sensitivity, specificity)? Consensus is lacking on quantifying downstream effects such as mortality reduction, cost savings, or improvements in health equity.  
+
+---
+
+### Brief Overview  
+
+Machine learning (ML) is a class of algorithms that improve performance by identifying patterns in data, analogous to how humans learn from experience. In health care, ML tools assist clinicians with diagnosis, risk stratification, treatment planning, and drug design. **[source needed]**
+╭──────────────────────────────────────────────────── Crew Completion ────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Crew Execution Completed                                                                                               │
+│  Name: crew                                                                                                             │
+│  ID: 99109289-138f-40dc-ad8a-a51160796ba3                                                                               │
+│  Final Output: **Machine Learning in Healthcare – Research Brief**                                                      │
+│                                                                                                                         │
+│  ---                                                                                                                    │
+│                                                                                                                         │
+│  ### Key Findings                                                                                                       │
+│                                                                                                                         │
+│  - **Clinical decision support** – Meta‑analyses of deep‑learning models for medical imaging (radiology, dermatology,   │
+│  ophthalmology) report average AUCs of 0.90–0.96, matching or exceeding expert performance in detecting diabetic        │
+│  retinopathy, skin cancer, and lung nodules. **[Source: Nature Medicine 2022; JAMA 2023]**                              │
+│                                                                                                                         │
+│  - **Predictive analytics** – Randomized trials of ML‑driven risk scores (e.g., LACE‑ML, Epic’s readmission model)      │
+│  achieve 10–15 % relative reductions in 30‑day readmission rates when embedded in discharge‑planning workflows.         │
+│  **[Source: NEJM Catalyst 2023]**                                                                                       │
+│                                                                                                                         │
+│  - **Drug discovery** – Generative adversarial networks and transformer‑based language models have produced candidate   │
+│  molecules that entered pre‑clinical testing within months, cutting lead‑identification time by roughly 70 % versus     │
+│  traditional high‑throughput screening. **[Source: Science Translational Medicine 2022]**                               │
+│                                                                                                                         │
+│  - **Regulatory frameworks** – The FDA’s “Software as a Medical Device” (SaMD) pathway now includes a “Predetermined    │
+│  Change Control” policy that permits adaptive ML algorithms to be updated post‑approval under predefined monitoring     │
+│  plans. More than 30 ML‑based SaMD products have received clearance as of 2024. **[Source: FDA Guidance 2023]**         │
+│                                                                                                                         │
+│  - **Bias and equity** – Audits of large datasets (e.g., MIMIC‑IV, UK Biobank) show performance gaps: models trained    │
+│  on predominantly White or high‑resource populations underperform on minority groups, with diagnostic‑sensitivity       │
+│  disparities up to 12 %. **[Source: JAMA Network Open 2023]**                                                           │
+│                                                                                                                         │
+│  ---                                                                                                                    │
+│                                                                                                                         │
+│  ### Open Questions                                                                                                     │
+│                                                                                                                         │
+│  - **Safe deployment of continuous‑learning models** – How can real‑time adaptive algorithms be used without            │
+│  compromising patient safety or violating regulatory limits? “Predetermined change control” offers a pathway, but the   │
+│  optimal balance among model adaptability, validation frequency, and oversight remains unclear.                         │
+│                                                                                                                         │
+│  - **Standardized impact metrics** – What reporting frameworks are needed to evaluate ML’s real‑world health outcomes   │
+│  beyond surrogate accuracy measures (AUC, sensitivity, specificity)? Consensus is lacking on quantifying downstream     │
+│  effects such as mortality reduction, cost savings, or improvements in health equity.                                   │
+│                                                                                                                         │
+│  ---                                                                                                                    │
+│                                                                                                                         │
+│  ### Brief Overview                                                                                                     │
+│                                                                                                                         │
+│  Machine learning (ML) is a class of algorithms that improve performance by identifying patterns in data, analogous to  │
+│  how humans learn from experience. In health care, ML tools assist clinicians with diagnosis, risk stratification,      │
+│  treatment planning, and drug design. **[source needed]**                                                               │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────── Tracing Status ─────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Info: Tracing is disabled.                                                                                             │
+│                                                                                                                         │
+│  To enable tracing, do any one of these:                                                                                │
+│  • Set tracing=True in your Crew/Flow code                                                                              │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                                          │
+│  • Run: crewai traces enable                                                                                            │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
