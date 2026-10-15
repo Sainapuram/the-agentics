@@ -1,0 +1,283 @@
+PS C:\Users\shrut\OneDrive - UNT System\Fall 2026\Capstone\agentic-starter-kits\agentic-starter-kits\crewai-kit> uv run python main.py "Machine Learning in Healthcare"                 
+╭──────────────────────────────────────────────── ✨ Update Available ✨ ─────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  A new version of CrewAI is available!                                                                                  │
+│                                                                                                                         │
+│  Current version: 1.15.27                                                                                               │
+│  Latest version:  1.15.28                                                                                               │
+│                                                                                                                         │
+│  To update, run: uv sync --upgrade-package crewai                                                                       │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────── 🚀 Crew Execution Started ───────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Crew Execution Started                                                                                                 │
+│  Name: crew                                                                                                             │
+│  ID: 2f4ab9c4-79b7-492c-bdd2-69e7ca45e4fb                                                                               │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────── 📋 Task Started ────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Task Started                                                                                                           │
+│  Name: Research Machine Learning in Healthcare. List 5 key facts and 2 open questions.                                  │
+│  ID: 561b046a-aef8-40d8-a501-4820ac6a0aa7                                                                               │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────── 🤖 Agent Started ────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Agent: Research Analyst                                                                                                │
+│                                                                                                                         │
+│  Task: Research Machine Learning in Healthcare. List 5 key facts and 2 open questions.                                  │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Agent: Research Analyst                                                                                                │
+│                                                                                                                         │
+│  Final Answer:                                                                                                          │
+│  **Machine Learning in Healthcare – Research Brief**                                                                    │
+│                                                                                                                         │
+│  **Key Facts**                                                                                                          │
+│                                                                                                                         │
+│  - **Clinical Decision Support:** ML algorithms are already deployed in radiology, pathology, and cardiology to flag    │
+│  abnormal findings (e.g., detecting lung nodules on CT scans with AUC > 0.95) and to prioritize cases for review,       │
+│  improving diagnostic speed and consistency.                                                                            │
+│  - **Predictive Risk Modeling:** Large‑scale EHR data enable ML models to predict patient outcomes such as 30‑day       │
+│  readmission, sepsis onset, or disease progression; many models achieve AUROC 0.80–0.90 and are being integrated into   │
+│  hospital alert systems.                                                                                                │
+│  - **Drug Discovery Acceleration:** Generative models (e.g., variational autoencoders, diffusion models) can design     │
+│  novel molecular structures and predict binding affinity, shortening early‑stage screening cycles from years to months  │
+│  and reducing experimental costs.                                                                                       │
+│  - **Regulatory Landscape:** The U.S. FDA has cleared or approved over 50 AI/ML‑based medical devices (as of 2024),     │
+│  establishing a “predetermined change control plan” framework that allows limited post‑deployment model updates under   │
+│  regulatory oversight.                                                                                                  │
+│  - **Health Equity Concerns:** Numerous studies have shown that ML models trained on predominantly White,               │
+│  high‑resource datasets underperform on minority or low‑resource populations, leading to potential disparities in       │
+│  diagnosis and treatment recommendations.                                                                               │
+│                                                                                                                         │
+│  **Open Questions**                                                                                                     │
+│                                                                                                                         │
+│  - **How can continuous learning models be safely and transparently updated in real‑world clinical settings without     │
+│  violating regulatory requirements or compromising patient safety?**                                                    │
+│  - **What standardized methods and metrics can reliably assess and mitigate bias in ML healthcare tools across diverse  │
+│  demographic groups and care environments?**                                                                            │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────── 📋 Task Completion ───────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Task Completed                                                                                                         │
+│  Name: Research Machine Learning in Healthcare. List 5 key facts and 2 open questions.                                  │
+│  Agent: Research Analyst                                                                                                │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────── 📋 Task Started ────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Task Started                                                                                                           │
+│  Name: Using the research brief, write a 250-word explainer on Machine Learning in Healthcare.                          │
+│  ID: 95a64d67-1718-476c-a57f-e82a2ce8b411                                                                               │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────── 🤖 Agent Started ────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Agent: Technical Writer                                                                                                │
+│                                                                                                                         │
+│  Task: Using the research brief, write a 250-word explainer on Machine Learning in Healthcare.                          │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Agent: Technical Writer                                                                                                │
+│                                                                                                                         │
+│  Final Answer:                                                                                                          │
+│  Machine learning (ML) is a set of computer techniques that learn patterns from data and then use those patterns to     │
+│  make predictions. In health care, ML is helping doctors work faster and more consistently. In radiology, pathology     │
+│  and cardiology, algorithms scan images and highlight suspicious spots—such as lung nodules on CT scans with accuracy   │
+│  scores above 0.95. This lets clinicians prioritize the urgent cases and reduces the chance of missed findings.         │
+│                                                                                                                         │
+│  Hospitals also use ML to forecast patient risk. By analyzing large electronic health records, models can estimate the  │
+│  likelihood of a 30‑day readmission, the early onset of sepsis, or how a disease will progress. Many of these tools     │
+│  achieve performance scores between 0.80 and 0.90 and are built into alert systems that warn staff before a problem     │
+│  escalates.                                                                                                             │
+│                                                                                                                         │
+│  Beyond the bedside, ML speeds drug discovery. Generative models can sketch new molecular structures and predict how    │
+│  well they bind to targets, shrinking screening from years to months and cutting laboratory costs.                      │
+│                                                                                                                         │
+│  Regulators are catching up. The U.S. Food and Drug Administration has cleared more than 50 AI‑driven medical devices   │
+│  as of 2024. Its “predetermined change control plan” lets manufacturers make updates to a model after it is deployed,   │
+│  while keeping patient safety under review.                                                                             │
+│                                                                                                                         │
+│  However, challenges remain. Models trained mostly on data from White, well‑resourced patients often perform poorly     │
+│  for minority or low‑resource groups, risking unequal care. Researchers are still figuring out how to update models     │
+│  continuously without breaking regulatory rules, and how to create tests that reveal and reduce bias across diverse     │
+│  populations.                                                                                                           │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────── 📋 Task Completion ───────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Task Completed                                                                                                         │
+│  Name: Using the research brief, write a 250-word explainer on Machine Learning in Healthcare.                          │
+│  Agent: Technical Writer                                                                                                │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────── 📋 Task Started ────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Task Started                                                                                                           │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                                              │
+│  ID: ffcf0355-5e66-4364-8093-ee8f4b601407                                                                               │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────── 🤖 Agent Started ────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Agent: Editor                                                                                                          │
+│                                                                                                                         │
+│  Task: Edit the explainer. Tighten it and mark any claim needing a source.                                              │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────── ✅ Agent Final Answer ─────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Agent: Editor                                                                                                          │
+│                                                                                                                         │
+│  Final Answer:                                                                                                          │
+│  **Machine Learning in Healthcare – Research Brief**                                                                    │
+│                                                                                                                         │
+│  Machine learning (ML) extracts patterns from data to generate predictions. In health care it accelerates diagnosis,    │
+│  risk forecasting, and drug discovery, but also raises regulatory and equity challenges.                                │
+│                                                                                                                         │
+│  **Clinical decision support**                                                                                          │
+│  ML algorithms now scan radiology, pathology, and cardiology images and flag abnormal findings—e.g., lung‑nodule        │
+│  detection on CT scans with area‑under‑the‑curve (AUC) > 0.95 [source needed]. By surfacing urgent cases, these tools   │
+│  improve diagnostic speed and reduce missed findings.                                                                   │
+│                                                                                                                         │
+│  **Predictive risk modeling**                                                                                           │
+│  Large electronic health‑record (EHR) datasets enable models that estimate 30‑day readmission risk, early sepsis        │
+│  onset, or disease progression. Reported AUROC values typically fall between 0.80 and 0.90 [source needed], and many    │
+│  systems are embedded in hospital alert workflows that notify staff before a patient’s condition deteriorates.          │
+│                                                                                                                         │
+│  **Drug discovery acceleration**                                                                                        │
+│  Generative models such as variational autoencoders and diffusion networks can propose novel molecular structures and   │
+│  predict binding affinity, compressing early‑stage screening from years to months and lowering experimental costs       │
+│  [source needed].                                                                                                       │
+│                                                                                                                         │
+│  **Regulatory landscape**                                                                                               │
+│  The U.S. Food and Drug Administration has cleared or approved more than 50 AI/ML‑based medical devices as of 2024      │
+│  [source needed]. Its “predetermined change control plan” framework permits limited post‑deployment model updates       │
+│  while maintaining regulatory oversight [source needed].                                                                │
+│                                                                                                                         │
+│  **Health‑equity concerns**                                                                                             │
+│  Numerous studies show that models trained predominantly on White, high‑resource populations underperform on minority   │
+│  or low‑resource groups, creating potential disparities in diagnosis and treatment recommendations [source needed].     │
+│                                                                                                                         │
+│  **Open questions**                                                                                                     │
+│                                                                                                                         │
+│  1. How can continuous‑learning models be updated safely and transparently in real‑world clinical settings without      │
+│  breaching regulatory requirements or compromising patient safety?                                                      │
+│  2. What standardized methods and metrics can reliably assess and mitigate bias in ML health‑care tools across diverse  │
+│  demographic groups and care environments?                                                                              │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────── 📋 Task Completion ───────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Task Completed                                                                                                         │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                                              │
+│  Agent: Editor                                                                                                          │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭──────────────────────────────────────────────────── Crew Completion ────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Crew Execution Completed                                                                                               │
+│  Name: crew                                                                                                             │
+│  ID: 2f4ab9c4-79b7-492c-bdd2-69e7ca45e4fb                                                                               │
+│  Final Output: **Machine Learning in Healthcare – Research Brief**                                                      │
+│                                                                                                                         │
+│  Machine learning (ML) extracts patterns from data to generate predictions. In health care it accelerates diagnosis,    │
+│  risk forecasting, and drug discovery, but also raises regulatory and equity challenges.                                │
+│                                                                                                                         │
+│  **Clinical decision support**                                                                                          │
+│  ML algorithms now scan radiology, pathology, and cardiology images and flag abnormal findings—e.g., lung‑nodule        │
+│  detection on CT scans with area‑under‑the‑curve (AUC) > 0.95 [source needed]. By surfacing urgent cases, these tools   │
+│  improve diagnostic speed and reduce missed findings.                                                                   │
+│                                                                                                                         │
+│  **Predictive risk modeling**                                                                                           │
+│  Large electronic health‑record (EHR) datasets enable models that estimate 30‑day readmission risk, early sepsis        │
+│  onset, or disease progression. Reported AUROC values typically fall between 0.80 and 0.90 [source needed], and many    │
+│  systems are embedded in hospital alert workflows that notify staff before a patient’s condition deteriorates.          │
+│                                                                                                                         │
+│  **Drug discovery acceleration**                                                                                        │
+│  Generative models such as variational autoencoders and diffusion networks can propose novel molecular structures and   │
+│  predict binding affinity, compressing early‑stage screening from years to months and lowering experimental costs       │
+│  [source needed].                                                                                                       │
+│                                                                                                                         │
+│  **Regulatory landscape**                                                                                               │
+│  The U.S. Food and Drug Administration has cleared or approved more than 50 AI/ML‑based medical devices as of 2024      │
+│  [source needed]. Its “predetermined change control plan” framework permits limited post‑deployment model updates       │
+│  while maintaining regulatory oversight [source needed].                                                                │
+│                                                                                                                         │
+│  **Health‑equity concerns**                                                                                             │
+│  Numerous studies show that models trained predominantly on White, high‑resource populations underperform on minority   │
+│  or low‑resource groups, creating potential disparities in diagnosis and treatment recommendations [source needed].     │
+│                                                                                                                         │
+│  **Open questions**                                                                                                     │
+│                                                                                                                         │
+│  1. How can continuous‑learning models be updated safely and transparently in real‑world clinical settings without      │
+│  breaching regulatory requirements or compromising patient safety?                                                      │
+│  2. What standardized methods and metrics can reliably assess and mitigate bias in ML health‑care tools across diverse  │
+│  demographic groups and care environments?                                                                              │
+│                                                                                                                         │
+│                                                                                                                         │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+=== FINAL OUTPUT (also saved to output/explainer.md) ===
+
+**Machine Learning in Healthcare – Research Brief**
+
+Machine learning (ML) extracts patterns from data to generate predictions. In health care it accelerates diagnosis, risk forecasting, and drug discovery, but also raises regulatory and equity challenges.
+
+**Clinical decision support**  
+ML algorithms now scan radiology, pathology, and cardiology images and flag abnormal findings—e.g., lung‑nodule detection on CT scans with area‑under‑the‑curve (AUC) > 0.95 [source needed]. By surfacing urgent cases, these tools improve diagnostic speed and reduce missed findings.
+
+**Predictive risk modeling**  
+Large electronic health‑record (EHR) datasets enable models that estimate 30‑day readmission risk, early sepsis onset, or disease progression. Reported AUROC values typically fall between 0.80 and 0.90 [source needed], and many systems are embedded in hospital alert workflows that notify staff before a patient’s condition deteriorates.
+
+**Drug discovery acceleration**  
+Generative models such as variational autoencoders and diffusion networks can propose novel molecular structures and predict binding affinity, compressing early‑stage screening from years to months and lowering experimental costs [source needed].
+
+**Regulatory landscape**  
+The U.S. Food and Drug Administration has cleared or approved more than 50 AI/ML‑based medical devices as of 2024 [source needed]. Its “predetermined change control plan” framework permits limited post‑deployment model updates while maintaining regulatory oversight [source needed].
+
+**Health‑equity concerns**  
+Numerous studies show that models trained predominantly on White, high‑resource populations underperform on minority or low‑resource groups, creating potential disparities in diagnosis and treatment recommendations [source needed].
+
+**Open questions**  
+
+1. How can continuous‑learning models be updated safely and transparently in real‑world clinical settings without breaching regulatory requirements or compromising patient safety?  
+2. What standardized methods and metrics can reliably assess and mitigate bias in ML health‑care tools across diverse demographic groups and care environments?
+╭──────────────────────────────────────────────────── Tracing Status ─────────────────────────────────────────────────────╮
+│                                                                                                                         │
+│  Info: Tracing is disabled.                                                                                             │
+│                                                                                                                         │
+│  To enable tracing, do any one of these:                                                                                │
+│  • Set tracing=True in your Crew/Flow code                                                                              │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                                          │
+│  • Run: crewai traces enable                                                    
